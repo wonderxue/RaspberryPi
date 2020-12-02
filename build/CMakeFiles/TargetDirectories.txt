@@ -1,0 +1,5 @@
+/home/pi/oled/build/CMakeFiles/rebuild_cache.dir
+/home/pi/oled/build/CMakeFiles/edit_cache.dir
+/home/pi/oled/build/src/CMakeFiles/rebuild_cache.dir
+/home/pi/oled/build/src/CMakeFiles/oled.dir
+/home/pi/oled/build/src/CMakeFiles/edit_cache.dir

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/oled/src/ip.h
+
+/home/pi/oled/src/main.c
+wiringPi.h
+-
+wiringPiI2C.h
+-
+oled.h
+/home/pi/oled/src/oled.h
+stdio.h
+-
+ip.h
+/home/pi/oled/src/ip.h
+string.h
+/home/pi/oled/src/string.h
+temp.h
+/home/pi/oled/src/temp.h
+stdlib.h
+-
+
+/home/pi/oled/src/oled.h
+wiringPi.h
+-
+wiringPiI2C.h
+-
+
+/home/pi/oled/src/temp.h
+
