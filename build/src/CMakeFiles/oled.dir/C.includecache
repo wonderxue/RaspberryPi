@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/mpu/src/GY_521.c
+GY_521.h
+/home/pi/mpu/src/GY_521.h
+
+/home/pi/mpu/src/GY_521.h
+wiringPi.h
+-
+wiringPiI2C.h
+-
+
+/home/pi/mpu/src/main.c
+GY_521.h
+/home/pi/mpu/src/GY_521.h
+stdio.h
+-
+

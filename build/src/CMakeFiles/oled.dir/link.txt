@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/oled.dir/GY_521.c.o CMakeFiles/oled.dir/main.c.o  -o ../../bin/oled -lwiringPi 
