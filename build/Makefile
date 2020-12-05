@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named oled
+# Target rules for targets named mpu
 
 # Build rule for target.
-oled: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 oled
-.PHONY : oled
+mpu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mpu
+.PHONY : mpu
 
 # fast build rule for target.
-oled/fast:
-	$(MAKE) -f src/CMakeFiles/oled.dir/build.make src/CMakeFiles/oled.dir/build
-.PHONY : oled/fast
+mpu/fast:
+	$(MAKE) -f src/CMakeFiles/mpu.dir/build.make src/CMakeFiles/mpu.dir/build
+.PHONY : mpu/fast
 
 # Help Target
 help:
@@ -131,7 +131,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... oled"
+	@echo "... mpu"
 .PHONY : help
 
 

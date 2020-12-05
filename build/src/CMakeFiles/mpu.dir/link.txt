@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/mpu.dir/GY_521.c.o CMakeFiles/mpu.dir/main.c.o  -o ../../bin/mpu -lwiringPi 

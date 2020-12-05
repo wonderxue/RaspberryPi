@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 2.8)
-project(oled)
+project(mpu)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 add_subdirectory(./src)

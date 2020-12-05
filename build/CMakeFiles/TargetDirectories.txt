@@ -1,5 +1,5 @@
 /home/pi/mpu/build/CMakeFiles/rebuild_cache.dir
 /home/pi/mpu/build/CMakeFiles/edit_cache.dir
 /home/pi/mpu/build/src/CMakeFiles/rebuild_cache.dir
-/home/pi/mpu/build/src/CMakeFiles/oled.dir
+/home/pi/mpu/build/src/CMakeFiles/mpu.dir
 /home/pi/mpu/build/src/CMakeFiles/edit_cache.dir

@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/oled.dir/rule:
-	cd /home/pi/mpu/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/oled.dir/rule
-.PHONY : src/CMakeFiles/oled.dir/rule
+src/CMakeFiles/mpu.dir/rule:
+	cd /home/pi/mpu/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/mpu.dir/rule
+.PHONY : src/CMakeFiles/mpu.dir/rule
 
 # Convenience name for target.
-oled: src/CMakeFiles/oled.dir/rule
+mpu: src/CMakeFiles/mpu.dir/rule
 
-.PHONY : oled
+.PHONY : mpu
 
 # fast build rule for target.
-oled/fast:
-	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/oled.dir/build.make src/CMakeFiles/oled.dir/build
-.PHONY : oled/fast
+mpu/fast:
+	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/mpu.dir/build.make src/CMakeFiles/mpu.dir/build
+.PHONY : mpu/fast
 
 GY_521.o: GY_521.c.o
 
@@ -131,7 +131,7 @@ GY_521.o: GY_521.c.o
 
 # target to build an object file
 GY_521.c.o:
-	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/oled.dir/build.make src/CMakeFiles/oled.dir/GY_521.c.o
+	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/mpu.dir/build.make src/CMakeFiles/mpu.dir/GY_521.c.o
 .PHONY : GY_521.c.o
 
 GY_521.i: GY_521.c.i
@@ -140,7 +140,7 @@ GY_521.i: GY_521.c.i
 
 # target to preprocess a source file
 GY_521.c.i:
-	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/oled.dir/build.make src/CMakeFiles/oled.dir/GY_521.c.i
+	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/mpu.dir/build.make src/CMakeFiles/mpu.dir/GY_521.c.i
 .PHONY : GY_521.c.i
 
 GY_521.s: GY_521.c.s
@@ -149,7 +149,7 @@ GY_521.s: GY_521.c.s
 
 # target to generate assembly for a file
 GY_521.c.s:
-	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/oled.dir/build.make src/CMakeFiles/oled.dir/GY_521.c.s
+	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/mpu.dir/build.make src/CMakeFiles/mpu.dir/GY_521.c.s
 .PHONY : GY_521.c.s
 
 main.o: main.c.o
@@ -158,7 +158,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/oled.dir/build.make src/CMakeFiles/oled.dir/main.c.o
+	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/mpu.dir/build.make src/CMakeFiles/mpu.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -167,7 +167,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/oled.dir/build.make src/CMakeFiles/oled.dir/main.c.i
+	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/mpu.dir/build.make src/CMakeFiles/mpu.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -176,7 +176,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/oled.dir/build.make src/CMakeFiles/oled.dir/main.c.s
+	cd /home/pi/mpu/build && $(MAKE) -f src/CMakeFiles/mpu.dir/build.make src/CMakeFiles/mpu.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -186,7 +186,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... oled"
+	@echo "... mpu"
 	@echo "... edit_cache"
 	@echo "... GY_521.o"
 	@echo "... GY_521.i"
